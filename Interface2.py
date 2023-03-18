@@ -199,7 +199,7 @@ class Ui_MainWindow(object):
         print(a)
 
     def click_regulateAr(self):
-        a = "120F00020100"
+        a = "020F00020100"
         print(a)
 
     def show_error(self, number): #вывод ошибки 
