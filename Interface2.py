@@ -150,7 +150,6 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
-        #self.get_bit(str)
         self.btn_openO.clicked.connect(self.click_open0) #функции нажатия на кнопки
         self.btn_openAr.clicked.connect(self.click_openAr)
         self.btn_closeO.clicked.connect(self.click_closeO)
@@ -200,7 +199,7 @@ class Ui_MainWindow(object):
         print(a)
 
     def click_regulateAr(self):
-        a = "020F00020100"
+        a = "120F00020100"
         print(a)
 
     def show_error(self, number): #вывод ошибки 
